@@ -119,7 +119,7 @@ int main(int argc, char** argv)
   while (live == true)
   {
     uint32_t runtime_ms = SDL_GetTicks();
-    if (unsigned_delta(runtime_ms, time_last_rendered) > render_delay_ms)
+    if (unsigned_subtraction(runtime_ms, time_last_rendered) > render_delay_ms)
     {
       // Render the Background_rect:
       SDL_SetRenderDrawColor(Renderer,
