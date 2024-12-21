@@ -37,7 +37,7 @@ This is a basic SDL2 template. It is written in C++ and uses Cmake.
   [website](www.msys2.org).
   * Wherever you install MSYS, make sure to add the path to the mingw64 bin
   ("C:\msys64\mingw64\bin" for example) to the path environment variable.
-  * `$ sudo pacman -Syu`
+  * `$ pacman -Syu`
   * `$ pacman -S base-devel`
   * `$ pacman -S git`
   * `$ pacman -S mingw-w64-x86_64-gcc`
