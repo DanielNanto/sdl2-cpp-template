@@ -1,14 +1,9 @@
-#if _WIN64 || _WIN32
-  #include <SDL2/SDL.h>
-  #include <SDL2/SDL_image.h>
-  #include <SDL2/SDL_mixer.h>
-  #include <SDL2/SDL_ttf.h>
-#elif __linux__
+#if __linux__
   #include <SDL.h>
   #include <SDL_image.h>
   #include <SDL_mixer.h>
   #include <SDL_ttf.h>
-#elif __APPLE__
+#else
   #include <SDL2/SDL.h>
   #include <SDL2/SDL_image.h>
   #include <SDL2/SDL_mixer.h>
